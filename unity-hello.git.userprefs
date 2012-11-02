@@ -1,0 +1,109 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/utils.impl/n/Platform/nUnityContext.cs">
+    <Files>
+      <File FileName="Assets/utils/n/App/nApp.cs" Line="22" Column="27" />
+      <File FileName="Assets/utils/n/App/nDbRecord.cs" Line="6" Column="34" />
+      <File FileName="Assets/utils/n/App/nStateFactory.cs" Line="9" Column="4" />
+      <File FileName="Assets/utils/n/Platform/nDb.cs" Line="26" Column="12" />
+      <File FileName="Assets/utils/n/External/TinyIoC" Line="72" Column="30" />
+      <File FileName="Assets/utils/n/nView.cs" Line="16" Column="36" />
+      <File FileName="Assets/utils/n/Platform/nViewFactory.cs" Line="19" Column="3" />
+      <File FileName="Assets/utils/n/nController.cs" Line="56" Column="48" />
+      <File FileName="Assets/utils/n/nResolver.cs" Line="2" Column="9" />
+      <File FileName="Assets/utils/n/nLog.cs" Line="8" Column="23" />
+      <File FileName="Assets/utils/n/External/TinyIoC.cs" Line="60" Column="20" />
+      <File FileName="Assets/utils/n/Platform/nDispatcher.cs" Line="1" Column="1" />
+      <File FileName="Assets/utils/n/Platform/nDb.cs" Line="26" Column="71" />
+      <File FileName="Assets/utils/n/External/TinyIoC" Line="72" Column="30" />
+      <File FileName="Assets/utils/n/nView.cs" Line="13" Column="5" />
+      <File FileName="Assets/utils/n/Platform/nViewFactory.cs" Line="9" Column="3" />
+      <File FileName="Assets/utils/n/nController.cs" Line="20" Column="15" />
+      <File FileName="Assets/utils/n/nResolver.cs" Line="2" Column="9" />
+      <File FileName="Assets/utils/n/nLog.cs" Line="8" Column="23" />
+      <File FileName="Assets/utils/n/External/TinyIoC.cs" Line="60" Column="20" />
+      <File FileName="Assets/utils/n/Platform/nDispatcher.cs" Line="1" Column="1" />
+      <File FileName="Assets/utils/n/Platform/nLogWriter.cs" Line="11" Column="42" />
+      <File FileName="Assets/utils/n/Platform/nContext.cs" Line="1" Column="14" />
+      <File FileName="Assets/utils/n/nAction.cs" Line="10" Column="30" />
+      <File FileName="Assets/utils/n/nDbRecordError.cs" Line="1" Column="1" />
+      <File FileName="Assets/utils/n/nDbRecordErrors.cs" Line="7" Column="2" />
+      <File FileName="Assets/utils/n/nModel.cs" Line="1" Column="1" />
+      <File FileName="Assets/utils/n/App/nApp.cs" Line="31" Column="1" />
+      <File FileName="Assets/utils/n/App/nDbRecord.cs" Line="6" Column="34" />
+      <File FileName="Assets/utils/n/App/nStateFactory.cs" Line="9" Column="4" />
+      <File FileName="Assets/utils/n/Platform/nDb.cs" Line="7" Column="49" />
+      <File FileName="Assets/utils/n/External/TinyIoC" Line="72" Column="30" />
+      <File FileName="Assets/utils/n/nView.cs" Line="12" Column="7" />
+      <File FileName="Assets/utils/n/Platform/nViewFactory.cs" Line="9" Column="3" />
+      <File FileName="Assets/utils/n/nController.cs" Line="20" Column="15" />
+      <File FileName="Assets/utils/n/nResolver.cs" Line="2" Column="9" />
+      <File FileName="Assets/utils/n/nLog.cs" Line="8" Column="23" />
+      <File FileName="Assets/utils/n/External/TinyIoC.cs" Line="60" Column="20" />
+      <File FileName="Assets/utils/n/Platform/nDispatcher.cs" Line="1" Column="1" />
+      <File FileName="Assets/utils/n/Platform/nLogWriter.cs" Line="11" Column="42" />
+      <File FileName="Assets/utils/n/Platform/nContext.cs" Line="1" Column="1" />
+      <File FileName="Assets/utils/n/nAction.cs" Line="10" Column="30" />
+      <File FileName="Assets/utils/n/nDbRecordError.cs" Line="1" Column="1" />
+      <File FileName="Assets/utils/n/nDbRecordErrors.cs" Line="7" Column="2" />
+      <File FileName="Assets/utils/n/nModel.cs" Line="1" Column="1" />
+      <File FileName="Assets/utils.impl/n/Platform/nUnityBindings.cs" Line="1" Column="1" />
+      <File FileName="Assets/utils.impl/n/Platform/nUnityContext.cs" Line="5" Column="69" />
+      <File FileName="Assets/utils/n/App/nApp.cs" Line="31" Column="1" />
+      <File FileName="Assets/utils/n/App/nDbRecord.cs" Line="6" Column="34" />
+      <File FileName="Assets/utils/n/App/nStateFactory.cs" Line="9" Column="4" />
+      <File FileName="Assets/utils/n/Platform/nDb.cs" Line="8" Column="6" />
+      <File FileName="Assets/utils/n/External/TinyIoC" Line="72" Column="30" />
+      <File FileName="Assets/utils/n/nView.cs" Line="12" Column="7" />
+      <File FileName="Assets/utils/n/Platform/nViewFactory.cs" Line="9" Column="3" />
+      <File FileName="Assets/utils/n/nController.cs" Line="20" Column="15" />
+      <File FileName="Assets/utils/n/nResolver.cs" Line="2" Column="9" />
+      <File FileName="Assets/utils/n/nLog.cs" Line="8" Column="23" />
+      <File FileName="Assets/utils/n/External/TinyIoC.cs" Line="60" Column="20" />
+      <File FileName="Assets/utils/n/Platform/nDispatcher.cs" Line="1" Column="1" />
+      <File FileName="Assets/utils/n/Platform/nLogWriter.cs" Line="11" Column="42" />
+      <File FileName="Assets/utils/n/Platform/nContext.cs" Line="1" Column="1" />
+      <File FileName="Assets/utils/n/nAction.cs" Line="10" Column="30" />
+      <File FileName="Assets/utils/n/nDbRecordError.cs" Line="1" Column="1" />
+      <File FileName="Assets/utils/n/nDbRecordErrors.cs" Line="7" Column="2" />
+      <File FileName="Assets/utils/n/nModel.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="utils" expanded="True">
+                <Node name="n" expanded="True">
+                  <Node name="App" expanded="True" />
+                  <Node name="External" expanded="True" />
+                  <Node name="Platform" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="utils.impl" expanded="True">
+                <Node name="n" expanded="True">
+                  <Node name="Platform" expanded="True">
+                    <Node name="nUnityContext.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
