@@ -22,7 +22,7 @@ namespace Hello
     /** Bind everything; unity bindings + state, etc. */
     protected override void setup (n.nResolver resolver)
     {
-      nUnityBindings.Bind(resolver);
+      nUnityBinding.Bind(resolver);
       resolver.Bind<nStateFactory, HelloStateFactory>();
     }
 
