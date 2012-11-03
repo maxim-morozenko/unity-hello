@@ -1,6 +1,6 @@
 [submodule "Assets/utils"]
 	path = Assets/utils
-	url = doug@shadowmint.xen.prgmr.com:repo/unity/unity-utils.git
+	url = git@github.com:onethousandfaces/unity-utils.git
 [submodule "Assets/utils.impl"]
 	path = Assets/utils.impl
-	url = doug@shadowmint.xen.prgmr.com:repo/unity/unity-utils-impl.git
+	url = git@github.com:onethousandfaces/unity-utils-impl.git
