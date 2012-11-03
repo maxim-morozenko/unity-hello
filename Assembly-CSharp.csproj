@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{E0B7BF80-2D2C-4B0E-AE81-8B322A2AEC2C}</ProjectGuid>
+	<ProjectGuid>{D28B2CA7-0DB5-7A55-4F63-FAB968E10D55}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -45,6 +45,16 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Main.cs" />
+     <Compile Include="Assets\app\Hello\Controllers\HomeController.cs" />
+     <Compile Include="Assets\app\Hello\HelloApp.cs" />
+     <Compile Include="Assets\app\Hello\HelloStateFactory.cs" />
+     <Compile Include="Assets\app\Hello\Model\Session.cs" />
+     <Compile Include="Assets\app\Hello\Views\Home\Menu.cs" />
+     <Compile Include="Assets\utils.impl\n\Gfx\nCamera.cs" />
+     <Compile Include="Assets\utils.impl\n\Gfx\nLayer.cs" />
+     <Compile Include="Assets\utils.impl\n\Gfx\nProp.cs" />
+     <Compile Include="Assets\utils.impl\n\Gfx\nQuad.cs" />
+     <Compile Include="Assets\utils.impl\n\Gfx\nScene.cs" />
      <Compile Include="Assets\utils.impl\n\Platform\nUnityBindings.cs" />
      <Compile Include="Assets\utils.impl\n\Platform\nUnityContext.cs" />
      <Compile Include="Assets\utils.impl\n\Platform\nUnityDb.cs" />
@@ -77,6 +87,6 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  <ProjectExtensions xmlns="http://schemas.microsoft.com/developer/msbuild/2003"><MonoDevelop><Properties><Policies><TextStylePolicy FileWidth="120" TabWidth="2" IndentWidth="2" EolMarker="Unix" inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-csharp" /><CSharpFormattingPolicy inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp" /><TextStylePolicy FileWidth="120" TabWidth="2" IndentWidth="4" EolMarker="Unix" inheritsSet="Mono" inheritsScope="text/plain" scope="text/plain" /></Policies></Properties></MonoDevelop></ProjectExtensions>
+  <ProjectExtensions xmlns="http://schemas.microsoft.com/developer/msbuild/2003"><MonoDevelop><Properties><Policies><TextStylePolicy FileWidth="120" TabWidth="2" IndentWidth="2" EolMarker="Unix" inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-csharp" /><CSharpFormattingPolicy inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp" /><TextStylePolicy FileWidth="120" TabWidth="2" IndentWidth="4" EolMarker="Unix" inheritsSet="Mono" inheritsScope="text/plain" scope="text/plain" /><StandardHeader Text="&#xA; Copyright ${Year}  ${CopyrightHolder}&#xA;&#xA;   Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);&#xA;   you may not use this file except in compliance with the License.&#xA;   You may obtain a copy of the License at&#xA;&#xA;       http://www.apache.org/licenses/LICENSE-2.0&#xA;&#xA;   Unless required by applicable law or agreed to in writing, software&#xA;   distributed under the License is distributed on an &quot;AS IS&quot; BASIS,&#xA;   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.&#xA;   See the License for the specific language governing permissions and&#xA;   limitations under the License." IncludeInNewFiles="True" /></Policies></Properties></MonoDevelop></ProjectExtensions>
 
 </Project>
