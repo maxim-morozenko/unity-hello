@@ -18,7 +18,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_3_5_6;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_OSX;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_6;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_WEBPLAYER;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -50,6 +50,8 @@
      <Compile Include="Assets\app\Hello\HelloStateFactory.cs" />
      <Compile Include="Assets\app\Hello\Model\Session.cs" />
      <Compile Include="Assets\app\Hello\Views\Home\Menu.cs" />
+     <Compile Include="Assets\app\Hello\Views\Home\PropTests.cs" />
+     <Compile Include="Assets\app\Hello\Views\Id.cs" />
      <Compile Include="Assets\utils.impl\n\Gfx\nCamera.cs" />
      <Compile Include="Assets\utils.impl\n\Gfx\nLayer.cs" />
      <Compile Include="Assets\utils.impl\n\Gfx\nProp.cs" />

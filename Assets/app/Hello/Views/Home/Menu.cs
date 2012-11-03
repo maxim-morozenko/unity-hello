@@ -1,10 +1,11 @@
 using System;
 using UnityEngine;
 
-namespace Hello.Views.Home
+public class Menu : MonoBehaviour
 {
-  public class Menu : MonoBehaviour
-  {
+  void Start () {
+  }
+  void Update () {
   }
 }
 

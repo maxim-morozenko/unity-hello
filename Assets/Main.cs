@@ -1,15 +1,13 @@
 using UnityEngine;
 using System.Collections;
 
-public class Main : MonoBehaviour {
+using Hello;
+using Hello.Controllers;
 
-	// Use this for initialization
+/** Bootstrap */
+public class Main : MonoBehaviour {
 	void Start () {
-	
+    HelloApp.App.Get<HomeController>().PropTests().Activate();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+  void Update () {}
 }
