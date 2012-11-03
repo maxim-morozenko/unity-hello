@@ -1,0 +1,53 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/utils/n/nResolver.cs">
+    <Files>
+      <File FileName="Assets/utils/n/nResolver.cs" Line="27" Column="72" />
+      <File FileName="Assets/utils/n/nResolver.cs" Line="25" Column="42" />
+      <File FileName="Assets/app/Hello/Controllers/HomeController.cs" Line="14" Column="1" />
+      <File FileName="Assets/Main.cs" Line="8" Column="26" />
+      <File FileName="Assets/app/Hello/Views/Home/PropTests.cs" Line="27" Column="18" />
+      <File FileName="Assets/utils.impl/n/Gfx/nProp.cs" Line="54" Column="37" />
+      <File FileName="Assets/app/Hello/Views/Home/Menu.cs" Line="9" Column="1" />
+      <File FileName="Assets/app/Hello/HelloApp.cs" Line="30" Column="41" />
+      <File FileName="Assets/app/Hello/HelloStateFactory.cs" Line="15" Column="9" />
+      <File FileName="Assets/app/Hello/Model/Session.cs" Line="6" Column="30" />
+      <File FileName="Assets/utils.impl/README.md" Line="72" Column="61" />
+      <File FileName="Assets/utils/n/nController.cs" Line="1" Column="1" />
+      <File FileName="Assets/utils/n/App/nStateFactory.cs" Line="9" Column="8" />
+      <File FileName="Assets/utils/n/nModel.cs" Line="1" Column="1" />
+      <File FileName="Assets/utils/n/App/nApp.cs" Line="25" Column="1" />
+      <File FileName="Assets/utils.impl/n/Gfx/nQuad.cs" Line="77" Column="18" />
+      <File FileName="Assets/utils.impl/n/Gfx/nLayer.cs" Line="60" Column="33" />
+      <File FileName="Assets/utils.impl/n/Gfx/nScene.cs" Line="33" Column="25" />
+      <File FileName="Assets/utils.impl/n/Gfx/nCamera.cs" Line="65" Column="71" />
+      <File FileName="Assets/app/Hello/Views/Id.cs" Line="17" Column="1" />
+      <File FileName="Assets/utils/n/nView.cs" Line="1" Column="1" />
+      <File FileName="Assets/utils.impl/n/Platform/nUnityContext.cs" Line="8" Column="5" />
+      <File FileName="Assets/utils.impl/n/Platform/nUnityBindings.cs" Line="1" Column="1" />
+      <File FileName="Assets/utils.impl/n/Platform/nUnityDb.cs" Line="1" Column="1" />
+      <File FileName="Assets/utils.impl/n/Platform/nUnityDispatcher.cs" Line="12" Column="32" />
+      <File FileName="Assets/utils.impl/n/Platform/nUnityLogWriter.cs" Line="17" Column="5" />
+      <File FileName="Assets/utils/n/nAction.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="utils" expanded="True">
+                <Node name="n" expanded="True">
+                  <Node name="nResolver.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
