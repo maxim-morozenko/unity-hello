@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using n.Gfx;
+using n;
 
 public class PropTests : MonoBehaviour
 {
@@ -23,6 +24,9 @@ public class PropTests : MonoBehaviour
     _props[0] = new nProp(_quads[0]);
     _props[0].Visible = true;
     _props[0].Position = new Vector2(0, 0);
+    _props[0].Listen(_cam, delegate (nProp prop) {
+      nLog.Debug("Got a click on 0!");
+    });
 
     _props[1] = new nProp(_quads[0]);
     _props[1].Visible = true;
@@ -33,6 +37,9 @@ public class PropTests : MonoBehaviour
     _props[2].Visible = true;
     _props[2].Position = new Vector2(0, 2);
     _props[2].Rotation = 45.0f;
+    _props[2].Listen(_cam, delegate (nProp prop) {
+      nLog.Debug("Got a click on 2!");
+    });
 
     _props[3] = new nProp(_quads[0]);
     _props[3].Visible = true;

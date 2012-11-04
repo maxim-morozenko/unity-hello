@@ -1,31 +1,19 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/app/Hello/Views/Home/PropTests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/utils.impl/n/Gfx/nProp.cs">
     <Files>
-      <File FileName="Assets/utils/n/nResolver.cs" Line="27" Column="3" />
-      <File FileName="Assets/app/Hello/Controllers/HomeController.cs" Line="14" Column="1" />
+      <File FileName="Assets/utils.impl/n/Gfx/nProp.cs" Line="163" Column="27" />
+      <File FileName="Assets/utils.impl/n/Gfx/nProp.cs" Line="150" Column="46" />
       <File FileName="Assets/Main.cs" Line="8" Column="26" />
-      <File FileName="Assets/app/Hello/Views/Home/PropTests.cs" Line="31" Column="34" />
-      <File FileName="Assets/utils.impl/n/Gfx/nProp.cs" Line="96" Column="23" />
-      <File FileName="Assets/app/Hello/Views/Home/Menu.cs" Line="9" Column="1" />
-      <File FileName="Assets/app/Hello/HelloApp.cs" Line="30" Column="41" />
-      <File FileName="Assets/app/Hello/HelloStateFactory.cs" Line="15" Column="9" />
-      <File FileName="Assets/app/Hello/Model/Session.cs" Line="6" Column="30" />
-      <File FileName="Assets/utils.impl/README.md" Line="72" Column="61" />
-      <File FileName="Assets/utils/n/nController.cs" Line="1" Column="1" />
-      <File FileName="Assets/utils/n/App/nStateFactory.cs" Line="9" Column="8" />
-      <File FileName="Assets/utils/n/nModel.cs" Line="1" Column="1" />
-      <File FileName="Assets/utils/n/App/nApp.cs" Line="25" Column="1" />
-      <File FileName="Assets/utils.impl/n/Gfx/nQuad.cs" Line="73" Column="26" />
-      <File FileName="Assets/utils.impl/n/Gfx/nLayer.cs" Line="60" Column="33" />
-      <File FileName="Assets/utils.impl/n/Gfx/nScene.cs" Line="33" Column="25" />
-      <File FileName="Assets/utils.impl/n/Gfx/nCamera.cs" Line="65" Column="71" />
-      <File FileName="Assets/app/Hello/Views/Id.cs" Line="17" Column="1" />
-      <File FileName="Assets/utils/n/nView.cs" Line="1" Column="1" />
-      <File FileName="Assets/utils.impl/n/Platform/nUnityContext.cs" Line="8" Column="5" />
+      <File FileName="Assets/utils.impl/n/Gfx/nQuad.cs" Line="102" Column="63" />
+      <File FileName="Assets/app/Hello/Views/Home/PropTests.cs" Line="28" Column="7" />
+      <File FileName="Assets/utils.impl/n/Platform/nUnityLogWriter.cs" Line="12" Column="2" />
+      <File FileName="Assets/utils.impl/n/Platform/nUnityBinding.cs" Line="1" Column="1" />
       <File FileName="Assets/utils.impl/n/Platform/nUnityDispatcher.cs" Line="12" Column="32" />
-      <File FileName="Assets/utils.impl/n/Platform/nUnityLogWriter.cs" Line="17" Column="5" />
-      <File FileName="Assets/utils/n/nAction.cs" Line="1" Column="1" />
+      <File FileName="Assets/utils.impl/n/Platform/nUnityContext.cs" Line="8" Column="5" />
+      <File FileName="Assets/utils/n/Platform/nLogWriter.cs" Line="9" Column="2" />
+      <File FileName="Assets/utils/n/nResolver.cs" Line="28" Column="3" />
+      <File FileName="Assets/utils.impl/n/Gfx/nCamera.cs" Line="75" Column="21" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -35,18 +23,20 @@
               <Node name="app" expanded="True">
                 <Node name="Hello" expanded="True">
                   <Node name="Views" expanded="True">
-                    <Node name="Home" expanded="True">
-                      <Node name="PropTests.cs" selected="True" />
-                    </Node>
+                    <Node name="Home" expanded="True" />
                   </Node>
                 </Node>
               </Node>
               <Node name="utils" expanded="True">
-                <Node name="n" expanded="True" />
+                <Node name="n" expanded="True">
+                  <Node name="Platform" expanded="True" />
+                </Node>
               </Node>
               <Node name="utils.impl" expanded="True">
                 <Node name="n" expanded="True">
-                  <Node name="Gfx" expanded="True" />
+                  <Node name="Gfx" expanded="True">
+                    <Node name="nProp.cs" selected="True" />
+                  </Node>
                   <Node name="Platform" expanded="True" />
                 </Node>
               </Node>
