@@ -18,7 +18,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_3_5_6;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_OSX;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_6;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_WEBPLAYER;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -45,6 +45,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Main.cs" />
+     <Compile Include="Assets\Tests\MyTests.cs" />
+     <Compile Include="Assets\Tests\MyTests2.cs" />
      <Compile Include="Assets\app\Hello\Controllers\HomeController.cs" />
      <Compile Include="Assets\app\Hello\HelloApp.cs" />
      <Compile Include="Assets\app\Hello\HelloStateFactory.cs" />
@@ -63,6 +65,8 @@
      <Compile Include="Assets\utils.impl\n\Platform\nUnityContext.cs" />
      <Compile Include="Assets\utils.impl\n\Platform\nUnityDispatcher.cs" />
      <Compile Include="Assets\utils.impl\n\Platform\nUnityLogWriter.cs" />
+     <Compile Include="Assets\utils.impl\n\Tests\Writers\nSimpleTestWriter.cs" />
+     <Compile Include="Assets\utils.impl\n\Tests\nTestRunner.cs" />
      <Compile Include="Assets\utils\n\App\nApp.cs" />
      <Compile Include="Assets\utils\n\App\nDbRecord.cs" />
      <Compile Include="Assets\utils\n\App\nStateFactory.cs" />
@@ -71,6 +75,13 @@
      <Compile Include="Assets\utils\n\Platform\nDb.cs" />
      <Compile Include="Assets\utils\n\Platform\nDispatcher.cs" />
      <Compile Include="Assets\utils\n\Platform\nLogWriter.cs" />
+     <Compile Include="Assets\utils\n\Test\nAssert.cs" />
+     <Compile Include="Assets\utils\n\Test\nTest.cs" />
+     <Compile Include="Assets\utils\n\Test\nTestBase.cs" />
+     <Compile Include="Assets\utils\n\Test\nTestResult.cs" />
+     <Compile Include="Assets\utils\n\Test\nTestResultSet.cs" />
+     <Compile Include="Assets\utils\n\Test\nTestSuite.cs" />
+     <Compile Include="Assets\utils\n\Test\nTestWriter.cs" />
      <Compile Include="Assets\utils\n\nAction.cs" />
      <Compile Include="Assets\utils\n\nController.cs" />
      <Compile Include="Assets\utils\n\nDbRecordError.cs" />
