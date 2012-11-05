@@ -7,7 +7,7 @@ using Hello.Controllers;
 /** Bootstrap */
 public class Main : MonoBehaviour {
 	void Start () {
-    HelloApp.App.Get<HomeController>().PropTests().Activate();
+    HelloApp.App.Get<HomeController>().TextTests().Activate();
 	}
   void Update () {}
 }

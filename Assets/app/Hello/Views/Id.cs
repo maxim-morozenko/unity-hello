@@ -11,6 +11,7 @@ namespace Hello.Views
   public class HomeIds {
     public string Menu = "Views.Home.Menu";
     public string PropTests = "Views.Home.PropTests";
+    public string TextTests = "Views.Home.TextTests";
   }
 }
 

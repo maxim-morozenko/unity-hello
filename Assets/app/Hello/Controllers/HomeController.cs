@@ -13,6 +13,10 @@ namespace Hello.Controllers
     public nView PropTests () {
       return View(Id.Home.PropTests);
     }
+
+    public nView TextTests () {
+      return View(Id.Home.TextTests);
+    }
   }
 }
 
