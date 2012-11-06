@@ -1,6 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/app/Hello/Views/Home/TextTests.cs">
+    <Files>
+      <File FileName="Assets/app/Hello/Views/Home/PropTests.cs" Line="11" Column="3" />
+      <File FileName="Assets/app/Hello/Views/Home/TextTests.cs" Line="11" Column="3" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
@@ -12,15 +16,15 @@
                   <Node name="Model" expanded="True" />
                   <Node name="ViewModel" expanded="True" />
                   <Node name="Views" expanded="True">
-                    <Node name="Home" expanded="True" />
+                    <Node name="Home" expanded="True">
+                      <Node name="TextTests.cs" selected="True" />
+                    </Node>
                   </Node>
                 </Node>
               </Node>
               <Node name="utils.impl" expanded="True">
                 <Node name="n" expanded="True">
-                  <Node name="Gfx" expanded="True">
-                    <Node name="nProp.cs" selected="True" />
-                  </Node>
+                  <Node name="Gfx" expanded="True" />
                   <Node name="UI" expanded="True" />
                 </Node>
               </Node>

@@ -10,6 +10,7 @@ public class TextTests : MonoBehaviour
 {
   private GUIText _t;
   private GameObject _tt;
+  private nCamera _cam;
 
   void Start ()
   {
@@ -17,6 +18,7 @@ public class TextTests : MonoBehaviour
     var controller = HelloApp.App.Get<HomeController>();
     var model = controller.SceneInfo().Model.As<SceneInfoViewModel>();
     model.BackButton.Manifest();
+    _cam = model.Camera;
 
     var light_font = (Font) Resources.Load ("Fonts/Roboto-Regular");
     var bold_font = (Font) Resources.Load ("Fonts/Roboto-BoldCondensed");
