@@ -8,7 +8,6 @@ using Hello.ViewModel;
 
 public class PropTests : MonoBehaviour
 {
-  private nCamera _cam;
   private nQuad[] _quads = new nQuad[1];
   private nProp[] _props = new nProp[10];
 

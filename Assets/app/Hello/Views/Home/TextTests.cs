@@ -8,7 +8,6 @@ using Hello.Controllers;
 
 public class TextTests : MonoBehaviour
 {
-  private nCamera _cam;
   private GUIText _t;
   private GameObject _tt;
 
