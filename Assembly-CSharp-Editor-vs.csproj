@@ -45,6 +45,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\Hello.cs" />
+     <Compile Include="Assets\Editor\UnityGUIExtensions\AutoSelect.cs" />
+     <Compile Include="Assets\Editor\UnityGUIExtensions\Editor\Common.cs" />
+     <Compile Include="Assets\Editor\UnityGUIExtensions\Editor\EditorAutoSelect.cs" />
+     <Compile Include="Assets\Editor\UnityGUIExtensions\Editor\EditorGUIHelper.cs" />
+     <Compile Include="Assets\Editor\UnityGUIExtensions\Editor\HorizontalPanes.cs" />
+     <Compile Include="Assets\Editor\UnityGUIExtensions\Editor\Toolbar.cs" />
+     <Compile Include="Assets\Editor\UnityGUIExtensions\Editor\VerticalPanes.cs" />
+     <Compile Include="Assets\Editor\UnityGUIExtensions\GUIHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">

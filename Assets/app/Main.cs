@@ -4,10 +4,8 @@ using System.Collections;
 using Hello;
 using Hello.Controllers;
 
-/** Bootstrap */
 public class Main : MonoBehaviour {
 	void Start () {
-    HelloApp.App.Get<HomeController>().TextTests().Activate();
+    HelloApp.App.Get<HomeController>().Menu().Activate();
 	}
-  void Update () {}
 }

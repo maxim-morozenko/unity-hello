@@ -44,17 +44,18 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Main.cs" />
      <Compile Include="Assets\Tests\MyTests.cs" />
      <Compile Include="Assets\Tests\MyTests2.cs" />
      <Compile Include="Assets\app\Hello\Controllers\HomeController.cs" />
      <Compile Include="Assets\app\Hello\HelloApp.cs" />
      <Compile Include="Assets\app\Hello\HelloStateFactory.cs" />
      <Compile Include="Assets\app\Hello\Model\Session.cs" />
+     <Compile Include="Assets\app\Hello\ViewModel\SceneInfoViewModel.cs" />
      <Compile Include="Assets\app\Hello\Views\Home\Menu.cs" />
      <Compile Include="Assets\app\Hello\Views\Home\PropTests.cs" />
      <Compile Include="Assets\app\Hello\Views\Home\TextTests.cs" />
      <Compile Include="Assets\app\Hello\Views\Id.cs" />
+     <Compile Include="Assets\app\Main.cs" />
      <Compile Include="Assets\utils.impl\n\Gfx\nCamera.cs" />
      <Compile Include="Assets\utils.impl\n\Gfx\nLayer.cs" />
      <Compile Include="Assets\utils.impl\n\Gfx\nProp.cs" />
@@ -69,6 +70,7 @@
      <Compile Include="Assets\utils.impl\n\Platform\nUnityLogWriter.cs" />
      <Compile Include="Assets\utils.impl\n\Tests\Writers\nSimpleTestWriter.cs" />
      <Compile Include="Assets\utils.impl\n\Tests\nTestRunner.cs" />
+     <Compile Include="Assets\utils.impl\n\UI\nButton.cs" />
      <Compile Include="Assets\utils\n\App\nApp.cs" />
      <Compile Include="Assets\utils\n\App\nDbRecord.cs" />
      <Compile Include="Assets\utils\n\App\nStateFactory.cs" />

@@ -1,16 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/utils.impl/n/Gfx/nQuad.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/utils.impl/n/Gfx/nProp.cs">
     <Files>
-      <File FileName="Assets/Main.cs" Line="10" Column="43" />
-      <File FileName="Assets/utils.impl/n/Gfx/nProp.cs" Line="51" Column="32" />
-      <File FileName="Assets/Tests/MyTests.cs" Line="1" Column="1" />
-      <File FileName="Assets/Tests/MyTests2.cs" Line="1" Column="1" />
-      <File FileName="Assets/app/Hello/Controllers/HomeController.cs" Line="18" Column="35" />
-      <File FileName="Assets/app/Hello/Views/Id.cs" Line="14" Column="46" />
-      <File FileName="Assets/app/Hello/Views/Home/TextTests.cs" Line="58" Column="8" />
-      <File FileName="Assets/utils.impl/n/Gfx/nQuad.cs" Line="101" Column="38" />
-      <File FileName="Assets/app/Hello/Views/Home/PropTests.cs" Line="27" Column="22" />
+      <File FileName="Assets/utils.impl/n/Gfx/nProp.cs" Line="191" Column="3" />
+      <File FileName="Assets/utils.impl/n/Gfx/nProp.cs" Line="178" Column="13" />
+      <File FileName="Assets/app/Hello/Controllers/HomeController.cs" Line="34" Column="48" />
+      <File FileName="Assets/app/Hello/ViewModel/SceneInfoViewModel.cs" Line="23" Column="36" />
+      <File FileName="Assets/app/Hello/Views/Home/PropTests.cs" Line="19" Column="32" />
+      <File FileName="Assets/app/Hello/Views/Home/TextTests.cs" Line="18" Column="43" />
+      <File FileName="Assets/app/Hello/Views/Home/Menu.cs" Line="24" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,6 +18,8 @@
               <Node name="app" expanded="True">
                 <Node name="Hello" expanded="True">
                   <Node name="Controllers" expanded="True" />
+                  <Node name="Model" expanded="True" />
+                  <Node name="ViewModel" expanded="True" />
                   <Node name="Views" expanded="True">
                     <Node name="Home" expanded="True" />
                   </Node>
@@ -28,8 +28,9 @@
               <Node name="utils.impl" expanded="True">
                 <Node name="n" expanded="True">
                   <Node name="Gfx" expanded="True">
-                    <Node name="nQuad (copy).cs" selected="True" />
+                    <Node name="nProp.cs" selected="True" />
                   </Node>
+                  <Node name="UI" expanded="True" />
                 </Node>
               </Node>
             </Node>

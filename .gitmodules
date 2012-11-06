@@ -4,3 +4,6 @@
 [submodule "Assets/utils.impl"]
 	path = Assets/utils.impl
 	url = git@github.com:onethousandfaces/unity-utils-impl.git
+[submodule "Assets/Editor/UnityGUIExtensions"]
+	path = Assets/Editor/UnityGUIExtensions
+	url = git://github.com/MrJoy/UnityGUIExtensions.git
