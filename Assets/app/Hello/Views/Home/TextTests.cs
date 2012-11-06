@@ -18,57 +18,69 @@ public class TextTests : MonoBehaviour
     _cam.Active = true;
 
     var tex = (Texture) Resources.Load("test.quad.1");
-    //var font = (Font) Resources.Load ("Fonts/Roboto-Regular");
-    var font = (Font) Resources.Load ("Fonts/Roboto-BoldCondensed");
-
-    var back = new nProp(tex, new Vector2(1.0f, 1.0f));
-    back.Visible = true;
-    back.Position = new Vector2(0, 0);
-    back.Depth = 1;
-    back.Listen(_cam, delegate {
-      nLog.Debug ("Back click");
-   });
+    var light_font = (Font) Resources.Load ("Fonts/Roboto-Regular");
+    var bold_font = (Font) Resources.Load ("Fonts/Roboto-BoldCondensed");
 
     var instance = new nText(new Vector2(1.0f, 1.0f));
-    instance.Font = font;
-    instance.FontSize = 0.25f;
-    instance.Color = Color.blue;
+    instance.Font = bold_font;
+    instance.FontSize = 0.2f;
+    instance.Color = Color.white;
     instance.Text = "Hello nText, yeah!\nhithere\ndfsdfasfdasfasdf\ndasfasdfasdf";
 
     var prop = new nProp(instance);
     prop.Visible = true;
     prop.Scale = new Vector2(1.0f, 1.0f);
-    prop.Position = new Vector2(-0.5f, 0.5f);
+    prop.Position = new Vector2(-6.0f, 2.0f);
     prop.Depth = 0;
     prop.Listen(_cam, delegate {
       nLog.Debug ("Text click");
     });
 
-    /* Create object and add to scene */
-    /*_tt = (GameObject)new GameObject (
-      "HelloWorld",
-      typeof(TextMesh),
-      typeof(MeshRenderer)
-    );
+    instance = new nText(new Vector2(1.0f, 1.0f));
+    instance.Font = light_font;
+    instance.FontSize = 1.0f;
+    instance.Color = Color.blue;
+    instance.Text = "this is a blue test";
+    
+    prop = new nProp(instance);
+    prop.Visible = true;
+    prop.Scale = new Vector2(1.0f, 1.0f);
+    prop.Position = new Vector2(-6.0f, 1.0f);
+    prop.Depth = 0;
+    prop.Listen(_cam, delegate {
+      nLog.Debug ("Text click");
+    });
 
-    var tm = _tt.GetComponent<TextMesh>();
-    var mr = _tt.GetComponent<MeshRenderer>();
-    Debug.Log ("MR: " + mr);
-    Debug.Log ("TM: " + tm);
-    Debug.Log ("F: " + font);
-    Debug.Log ("FM: " + font.material);
+    instance = new nText(new Vector2(1.0f, 1.0f));
+    instance.Font = bold_font;
+    instance.FontSize = 2.0f;
+    instance.Color = Color.magenta;
+    instance.Text = "This is a pink test which is all scaled";
+    
+    prop = new nProp(instance);
+    prop.Visible = true;
+    prop.Scale = new Vector2(0.5f, 1.0f);
+    prop.Position = new Vector2(-6.0f, -1.0f);
+    prop.Depth = 1;
+    prop.Listen(_cam, delegate {
+      nLog.Debug ("Text click");
+    });
 
-    tm.font = font;
-    mr.material = font.material;
-
-    tm.fontSize = 50;
-    tm.text = "Hello 3D Mesh";
-    //mr.transform.position = new Vector3(0.0f, 1.0f, 1.0f);
-    //mr.transform.localScale = new Vector3(0.1f, 0.1f, 1.0f);
-    //mr.transform.Rotate(new Vector3(0f, 0f, 1.0f), 45.0f);
-    _tt.transform.position = new Vector3(0.0f, 1.0f, 1.0f);
-    _tt.transform.localScale = new Vector3(0.1f, 0.1f, 1.0f);
-    _tt.transform.Rotate(new Vector3(0f, 0f, 1.0f), 45.0f);*/
+    instance = new nText(new Vector2(1.0f, 1.0f));
+    instance.Font = bold_font;
+    instance.FontSize = 0.5f;
+    instance.Color = Color.green;
+    instance.Text = "This is another random test we've rotated!";
+    
+    prop = new nProp(instance);
+    prop.Visible = true;
+    prop.Scale = new Vector2(0.8f, 1.0f);
+    prop.Position = new Vector2(3.0f, 3.0f);
+    prop.Rotation = -90.0f;
+    prop.Depth = 0;
+    prop.Listen(_cam, delegate {
+      nLog.Debug ("Text click");
+    });
   }
 
   void Update () {

@@ -1,16 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/utils.impl/n/Gfx/nQuad.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/utils.impl/n/Gfx/nText.cs">
     <Files>
-      <File FileName="Assets/Main.cs" Line="10" Column="43" />
-      <File FileName="Assets/utils.impl/n/Gfx/nProp.cs" Line="51" Column="32" />
-      <File FileName="Assets/Tests/MyTests.cs" Line="1" Column="1" />
-      <File FileName="Assets/Tests/MyTests2.cs" Line="1" Column="1" />
-      <File FileName="Assets/app/Hello/Controllers/HomeController.cs" Line="18" Column="35" />
-      <File FileName="Assets/app/Hello/Views/Id.cs" Line="14" Column="46" />
-      <File FileName="Assets/app/Hello/Views/Home/TextTests.cs" Line="58" Column="8" />
-      <File FileName="Assets/utils.impl/n/Gfx/nQuad.cs" Line="101" Column="38" />
-      <File FileName="Assets/app/Hello/Views/Home/PropTests.cs" Line="27" Column="22" />
+      <File FileName="Assets/utils.impl/n/Gfx/nText.cs" Line="69" Column="18" />
+      <File FileName="Assets/app/Hello/Views/Home/TextTests.cs" Line="21" Column="6" />
+      <File FileName="Assets/utils.impl/n/Gfx/nProp.cs" Line="103" Column="65" />
+      <File FileName="Assets/utils.impl/n/Gfx/nQuad.cs" Line="94" Column="19" />
+      <File FileName="Assets/app/Hello/Views/Home/PropTests.cs" Line="21" Column="1" />
+      <File FileName="Assets/app/Hello/Views/Home/Menu.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -28,7 +25,7 @@
               <Node name="utils.impl" expanded="True">
                 <Node name="n" expanded="True">
                   <Node name="Gfx" expanded="True">
-                    <Node name="nQuad (copy).cs" selected="True" />
+                    <Node name="nText.cs" selected="True" />
                   </Node>
                 </Node>
               </Node>
