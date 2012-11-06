@@ -10,12 +10,14 @@ public class PropTests : MonoBehaviour
 {
   private nQuad[] _quads = new nQuad[1];
   private nProp[] _props = new nProp[10];
+  private nCamera _cam;
 
   void Start () {
 
     var controller = HelloApp.App.Get<HomeController>();
     var model = controller.SceneInfo().Model.As<SceneInfoViewModel>();
     model.BackButton.Manifest();
+    _cam = model.Camera;
 
     /* load a quad */
     _quads[0] = new nQuad(new Vector2(1.0f, 1.0f));

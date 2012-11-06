@@ -17,11 +17,4 @@ public class MyTests : nTestBase {
     Debug ("This is a message");
     Debug ("This is a message too");
   }
-  
-  [nTest]
-  public void test_failing_thing ()
-  {
-    var blah = false;
-    blah.ShouldBe(true);
-  }
 }
