@@ -1,39 +1,36 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/utils.impl/n/Platform/db/RecordSerializer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/utils.impl/n/Platform/db/impl/FileDbContainer.cs">
     <Files>
-      <File FileName="Assets/utils/n/Test/nAssert.cs" Line="48" Column="81" />
-      <File FileName="Assets/utils.impl/n/Platform/db/RecordSerializer.cs" Line="27" Column="1" />
+      <File FileName="Assets/utils.impl/n/Platform/db/impl/FileDbContainer.cs" Line="41" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Tests" expanded="True" />
-              <Node name="utils" expanded="True">
-                <Node name="n" expanded="True">
-                  <Node name="App" expanded="True" />
-                  <Node name="External" expanded="True" />
-                  <Node name="Platform" expanded="True" />
-                  <Node name="Test" expanded="True" />
-                </Node>
-                <Node name="Tests" expanded="True">
-                  <Node name="n" expanded="True">
-                    <Node name="App" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
               <Node name="utils.impl" expanded="True">
                 <Node name="n" expanded="True">
                   <Node name="Platform" expanded="True">
-                    <Node name="db" expanded="True" />
+                    <Node name="db" expanded="True">
+                      <Node name="impl" expanded="True">
+                        <Node name="FileDbContainer.cs" selected="True" />
+                      </Node>
+                    </Node>
+                  </Node>
+                </Node>
+                <Node name="Tests" expanded="True">
+                  <Node name="n" expanded="True">
+                    <Node name="Platform" expanded="True">
+                      <Node name="Db" expanded="True" />
+                    </Node>
                   </Node>
                 </Node>
               </Node>
             </Node>
           </Node>
           <Node name="Assembly-CSharp-Editor" expanded="True">
+            <Node name="References" expanded="True" />
             <Node name="Assets" expanded="True">
               <Node name="Editor" expanded="True" />
             </Node>

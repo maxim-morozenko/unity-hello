@@ -1,0 +1,95 @@
+Test results:
+============
+
+Raw test results:
+----------------
+- MyTests: 3/3 passed
+--      - MyTests::test_thing_one
+--      - MyTests::test_other_thing
+--      - MyTests::test_thing_with_debug
+------------------ DEBUG BLOCK -----------------
+This is a message
+This is a message too
+
+------------------------------------------------
+- MyTests2: 2/2 passed
+--      - MyTests2::test_in_other_class
+--      - MyTests2::another_test_in_other_class
+- Tests.n.App.nDbRecordTests: 5/5 passed
+--      - Tests.n.App.nDbRecordTests::test_can_create_instance
+--      - Tests.n.App.nDbRecordTests::test_id_is_set_by_default
+--      - Tests.n.App.nDbRecordTests::test_can_read_fields
+------------------ DEBUG BLOCK -----------------
+Value1 -- 1
+Value2 -- 1
+Value3 -- True
+Value4 -- 1
+Value5 -- 1
+Value6 -- 2
+Value7 -- 8/11/2012 9:29:42 PM
+Ref -- 
+Id -- -1
+
+------------------------------------------------
+--      - Tests.n.App.nDbRecordTests::test_can_get_validation_errors
+------------------ DEBUG BLOCK -----------------
+[nDbRecordError: Field=Value2, Message=Cannot have value < 2
+[nDbRecordError: Field=Value6, Message=Must have a value of 'Value6'
+
+
+------------------------------------------------
+--      - Tests.n.App.nDbRecordTests::test_can_fix_validation_errors_and_read_fields
+- Tests.n.Platform.Db.RecordSerializerTests: 0/2 passed
+-- fail - Tests.n.Platform.Db.RecordSerializerTests::test_can_serialize
+------------------ ERROR BLOCK -----------------
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidCastException: Cannot cast from source type to destination type.
+  at Tests.n.Platform.Db.RecordSerializerTests.test_can_serialize () [0x0001c] in /Users/doug/projects/unity/unity-hello/Assets/utils.impl/Tests/n/Platform/Db/RecordSerializerTests.cs:65 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <filename unknown>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at n.Test.nTestRunner.RunTests (n.Test.nTestSuite suite) [0x0003b] in /Users/doug/projects/unity/unity-hello/Assets/utils.impl/n/Tests/nTestRunner.cs:77 
+------------------------------------------------
+-- fail - Tests.n.Platform.Db.RecordSerializerTests::test_can_deserialize
+------------------ ERROR BLOCK -----------------
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidCastException: Cannot cast from source type to destination type.
+  at Tests.n.Platform.Db.RecordSerializerTests.test_can_deserialize () [0x0001c] in /Users/doug/projects/unity/unity-hello/Assets/utils.impl/Tests/n/Platform/Db/RecordSerializerTests.cs:79 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <filename unknown>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at n.Test.nTestRunner.RunTests (n.Test.nTestSuite suite) [0x0003b] in /Users/doug/projects/unity/unity-hello/Assets/utils.impl/n/Tests/nTestRunner.cs:77 
+------------------------------------------------
+
+Summary test results:
+--------------------
+
+- MyTests: 3/3 passed
+--      - MyTests::test_thing_one
+--      - MyTests::test_other_thing
+--      - MyTests::test_thing_with_debug
+
+- MyTests2: 2/2 passed
+--      - MyTests2::test_in_other_class
+--      - MyTests2::another_test_in_other_class
+
+- Tests.n.App.nDbRecordTests: 5/5 passed
+--      - Tests.n.App.nDbRecordTests::test_can_create_instance
+--      - Tests.n.App.nDbRecordTests::test_id_is_set_by_default
+--      - Tests.n.App.nDbRecordTests::test_can_read_fields
+--      - Tests.n.App.nDbRecordTests::test_can_get_validation_errors
+--      - Tests.n.App.nDbRecordTests::test_can_fix_validation_errors_and_read_fields
+
+- Tests.n.Platform.Db.RecordSerializerTests: 0/2 passed
+-- fail - Tests.n.Platform.Db.RecordSerializerTests::test_can_serialize
+-- fail - Tests.n.Platform.Db.RecordSerializerTests::test_can_deserialize
+
+Summary results:
+---------------
+- MyTests: 3/3 passed
+- MyTests2: 2/2 passed
+- Tests.n.App.nDbRecordTests: 5/5 passed
+- Tests.n.Platform.Db.RecordSerializerTests: 0/2 passed
+- Total: 2 tests failed

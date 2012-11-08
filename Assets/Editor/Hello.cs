@@ -5,6 +5,7 @@ using System.Linq;
 using n.Test;
 using n.Test.Writers;
 using Tests.n.App;
+using Tests.n.Platform.Db;
 
 namespace Balls {
   public class Hello : nTestRunner {
@@ -12,6 +13,7 @@ namespace Balls {
       tests.type = typeof(MyTests);
       tests.type = typeof(MyTests2);
       tests.type = typeof(nDbRecordTests);
+      tests.type = typeof(RecordSerializerTests);
     }
     
     public static void RunTests() {

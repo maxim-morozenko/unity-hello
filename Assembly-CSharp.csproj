@@ -1,107 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>10.0.20506</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D28B2CA7-0DB5-7A55-4F63-FAB968E10D55}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{D28B2CA7-0DB5-7A55-4F63-FAB968E10D55}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>True</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>False</Optimize>
-    <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_3_5_6;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_WEBPLAYER;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <NoWarn>0169</NoWarn>
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_6;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_OSX;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>True</Optimize>
-    <OutputPath>Temp\bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <NoWarn>0169</NoWarn>
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="UnityEngine">
-      <HintPath>..\..\..\..\..\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEngine.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor">
-      <HintPath>..\..\..\..\..\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml" />
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Tests\MyTests.cs" />
-    <Compile Include="Assets\Tests\MyTests2.cs" />
-    <Compile Include="Assets\app\Hello\Controllers\HomeController.cs" />
-    <Compile Include="Assets\app\Hello\HelloApp.cs" />
-    <Compile Include="Assets\app\Hello\HelloStateFactory.cs" />
-    <Compile Include="Assets\app\Hello\Model\Session.cs" />
-    <Compile Include="Assets\app\Hello\ViewModel\SceneInfoViewModel.cs" />
-    <Compile Include="Assets\app\Hello\Views\Home\Menu.cs" />
-    <Compile Include="Assets\app\Hello\Views\Home\PropTests.cs" />
-    <Compile Include="Assets\app\Hello\Views\Home\TextTests.cs" />
-    <Compile Include="Assets\app\Hello\Views\Id.cs" />
-    <Compile Include="Assets\app\Main.cs" />
-    <Compile Include="Assets\utils.impl\n\Gfx\nCamera.cs" />
-    <Compile Include="Assets\utils.impl\n\Gfx\nLayer.cs" />
-    <Compile Include="Assets\utils.impl\n\Gfx\nProp.cs" />
-    <Compile Include="Assets\utils.impl\n\Gfx\nQuad.cs" />
-    <Compile Include="Assets\utils.impl\n\Gfx\nScene.cs" />
-    <Compile Include="Assets\utils.impl\n\Gfx\nText.cs" />
-    <Compile Include="Assets\utils.impl\n\Platform\db\IDbContainer.cs" />
-    <Compile Include="Assets\utils.impl\n\Platform\db\RecordSerializer.cs" />
-    <Compile Include="Assets\utils.impl\n\Platform\db\impl\CookieDbContainer.cs" />
-    <Compile Include="Assets\utils.impl\n\Platform\db\impl\FileDbContainer.cs" />
-    <Compile Include="Assets\utils.impl\n\Platform\nUnityBinding.cs" />
-    <Compile Include="Assets\utils.impl\n\Platform\nUnityContext.cs" />
-    <Compile Include="Assets\utils.impl\n\Platform\nUnityDispatcher.cs" />
-    <Compile Include="Assets\utils.impl\n\Platform\nUnityLogWriter.cs" />
-    <Compile Include="Assets\utils.impl\n\Tests\Writers\nSimpleTestWriter.cs" />
-    <Compile Include="Assets\utils.impl\n\Tests\nTestRunner.cs" />
-    <Compile Include="Assets\utils.impl\n\UI\nButton.cs" />
-    <Compile Include="Assets\utils\Tests\n\App\MyRecordType.cs" />
-    <Compile Include="Assets\utils\Tests\n\App\nDbRecordTests.cs" />
-    <Compile Include="Assets\utils\n\App\nApp.cs" />
-    <Compile Include="Assets\utils\n\App\nDbRecord.cs" />
-    <Compile Include="Assets\utils\n\App\nStateFactory.cs" />
-    <Compile Include="Assets\utils\n\External\TinyIoC.cs" />
-    <Compile Include="Assets\utils\n\Platform\nContext.cs" />
-    <Compile Include="Assets\utils\n\Platform\nDb.cs" />
-    <Compile Include="Assets\utils\n\Platform\nDispatcher.cs" />
-    <Compile Include="Assets\utils\n\Platform\nLogWriter.cs" />
-    <Compile Include="Assets\utils\n\Test\nAssert.cs" />
-    <Compile Include="Assets\utils\n\Test\nTest.cs" />
-    <Compile Include="Assets\utils\n\Test\nTestBase.cs" />
-    <Compile Include="Assets\utils\n\Test\nTestResult.cs" />
-    <Compile Include="Assets\utils\n\Test\nTestResultSet.cs" />
-    <Compile Include="Assets\utils\n\Test\nTestSuite.cs" />
-    <Compile Include="Assets\utils\n\Test\nTestWriter.cs" />
-    <Compile Include="Assets\utils\n\nAction.cs" />
-    <Compile Include="Assets\utils\n\nController.cs" />
-    <Compile Include="Assets\utils\n\nDbRecordError.cs" />
-    <Compile Include="Assets\utils\n\nDbRecordErrors.cs" />
-    <Compile Include="Assets\utils\n\nDbRecordField.cs" />
-    <Compile Include="Assets\utils\n\nDbRecordFieldType.cs" />
-    <Compile Include="Assets\utils\n\nLog.cs" />
-    <Compile Include="Assets\utils\n\nModel.cs" />
-    <Compile Include="Assets\utils\n\nResolver.cs" />
-    <Compile Include="Assets\utils\n\nView.cs" />
-    <Compile Include="Assets\utils\n\nViewError.cs" />
-    <Compile Include="Assets\utils\n\nViewFactory.cs" />
-    <Compile Include="Assets\utils.impl\n\Platform\nUnityDb.cs" />
+     <Compile Include="Assets\Tests\MyTests.cs" />
+     <Compile Include="Assets\Tests\MyTests2.cs" />
+     <Compile Include="Assets\app\Hello\Controllers\HomeController.cs" />
+     <Compile Include="Assets\app\Hello\HelloApp.cs" />
+     <Compile Include="Assets\app\Hello\HelloStateFactory.cs" />
+     <Compile Include="Assets\app\Hello\Model\Session.cs" />
+     <Compile Include="Assets\app\Hello\ViewModel\SceneInfoViewModel.cs" />
+     <Compile Include="Assets\app\Hello\Views\Home\Menu.cs" />
+     <Compile Include="Assets\app\Hello\Views\Home\PropTests.cs" />
+     <Compile Include="Assets\app\Hello\Views\Home\TextTests.cs" />
+     <Compile Include="Assets\app\Hello\Views\Id.cs" />
+     <Compile Include="Assets\app\Main.cs" />
+     <Compile Include="Assets\utils.impl\Tests\n\Platform\Db\MyDbRecordType.cs" />
+     <Compile Include="Assets\utils.impl\Tests\n\Platform\Db\RecordSerializerTests.cs" />
+     <Compile Include="Assets\utils.impl\n\Gfx\nCamera.cs" />
+     <Compile Include="Assets\utils.impl\n\Gfx\nLayer.cs" />
+     <Compile Include="Assets\utils.impl\n\Gfx\nProp.cs" />
+     <Compile Include="Assets\utils.impl\n\Gfx\nQuad.cs" />
+     <Compile Include="Assets\utils.impl\n\Gfx\nScene.cs" />
+     <Compile Include="Assets\utils.impl\n\Gfx\nText.cs" />
+     <Compile Include="Assets\utils.impl\n\Platform\db\Crypto.cs" />
+     <Compile Include="Assets\utils.impl\n\Platform\db\IDbContainer.cs" />
+     <Compile Include="Assets\utils.impl\n\Platform\db\RecordSerializer.cs" />
+     <Compile Include="Assets\utils.impl\n\Platform\db\impl\CookieDbContainer.cs" />
+     <Compile Include="Assets\utils.impl\n\Platform\db\impl\FileDbContainer.cs" />
+     <Compile Include="Assets\utils.impl\n\Platform\nUnityBinding.cs" />
+     <Compile Include="Assets\utils.impl\n\Platform\nUnityContext.cs" />
+     <Compile Include="Assets\utils.impl\n\Platform\nUnityDb.cs" />
+     <Compile Include="Assets\utils.impl\n\Platform\nUnityDispatcher.cs" />
+     <Compile Include="Assets\utils.impl\n\Platform\nUnityLogWriter.cs" />
+     <Compile Include="Assets\utils.impl\n\Tests\Writers\nSimpleTestWriter.cs" />
+     <Compile Include="Assets\utils.impl\n\Tests\nTestRunner.cs" />
+     <Compile Include="Assets\utils.impl\n\UI\nButton.cs" />
+     <Compile Include="Assets\utils\Tests\n\App\MyRecordType.cs" />
+     <Compile Include="Assets\utils\Tests\n\App\nDbRecordTests.cs" />
+     <Compile Include="Assets\utils\n\App\nApp.cs" />
+     <Compile Include="Assets\utils\n\App\nDbRecord.cs" />
+     <Compile Include="Assets\utils\n\App\nStateFactory.cs" />
+     <Compile Include="Assets\utils\n\External\TinyIoC.cs" />
+     <Compile Include="Assets\utils\n\Platform\nContext.cs" />
+     <Compile Include="Assets\utils\n\Platform\nDb.cs" />
+     <Compile Include="Assets\utils\n\Platform\nDispatcher.cs" />
+     <Compile Include="Assets\utils\n\Platform\nLogWriter.cs" />
+     <Compile Include="Assets\utils\n\Test\nAssert.cs" />
+     <Compile Include="Assets\utils\n\Test\nTest.cs" />
+     <Compile Include="Assets\utils\n\Test\nTestBase.cs" />
+     <Compile Include="Assets\utils\n\Test\nTestResult.cs" />
+     <Compile Include="Assets\utils\n\Test\nTestResultSet.cs" />
+     <Compile Include="Assets\utils\n\Test\nTestSuite.cs" />
+     <Compile Include="Assets\utils\n\Test\nTestWriter.cs" />
+     <Compile Include="Assets\utils\n\nAction.cs" />
+     <Compile Include="Assets\utils\n\nController.cs" />
+     <Compile Include="Assets\utils\n\nDbRecordError.cs" />
+     <Compile Include="Assets\utils\n\nDbRecordErrors.cs" />
+     <Compile Include="Assets\utils\n\nDbRecordField.cs" />
+     <Compile Include="Assets\utils\n\nDbRecordFieldType.cs" />
+     <Compile Include="Assets\utils\n\nLog.cs" />
+     <Compile Include="Assets\utils\n\nModel.cs" />
+     <Compile Include="Assets\utils\n\nResolver.cs" />
+     <Compile Include="Assets\utils\n\nView.cs" />
+     <Compile Include="Assets\utils\n\nViewError.cs" />
+     <Compile Include="Assets\utils\n\nViewFactory.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -111,16 +115,6 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  <ProjectExtensions xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-    <MonoDevelop>
-      <Properties>
-        <Policies>
-          <TextStylePolicy FileWidth="120" TabWidth="2" IndentWidth="2" EolMarker="Unix" inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-csharp" />
-          <CSharpFormattingPolicy inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp" />
-          <TextStylePolicy FileWidth="120" TabWidth="2" IndentWidth="4" EolMarker="Unix" inheritsSet="Mono" inheritsScope="text/plain" scope="text/plain" />
-          <StandardHeader Text="&#xA; Copyright ${Year}  ${CopyrightHolder}&#xA;&#xA;   Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);&#xA;   you may not use this file except in compliance with the License.&#xA;   You may obtain a copy of the License at&#xA;&#xA;       http://www.apache.org/licenses/LICENSE-2.0&#xA;&#xA;   Unless required by applicable law or agreed to in writing, software&#xA;   distributed under the License is distributed on an &quot;AS IS&quot; BASIS,&#xA;   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.&#xA;   See the License for the specific language governing permissions and&#xA;   limitations under the License." IncludeInNewFiles="True" />
-        </Policies>
-      </Properties>
-    </MonoDevelop>
-  </ProjectExtensions>
+  <ProjectExtensions xmlns="http://schemas.microsoft.com/developer/msbuild/2003"><MonoDevelop><Properties><Policies><TextStylePolicy FileWidth="120" TabWidth="2" IndentWidth="2" EolMarker="Unix" inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-csharp" /><CSharpFormattingPolicy inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp" /><TextStylePolicy FileWidth="120" TabWidth="2" IndentWidth="4" EolMarker="Unix" inheritsSet="Mono" inheritsScope="text/plain" scope="text/plain" /><StandardHeader Text="&#xA; Copyright ${Year}  ${CopyrightHolder}&#xA;&#xA;   Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);&#xA;   you may not use this file except in compliance with the License.&#xA;   You may obtain a copy of the License at&#xA;&#xA;       http://www.apache.org/licenses/LICENSE-2.0&#xA;&#xA;   Unless required by applicable law or agreed to in writing, software&#xA;   distributed under the License is distributed on an &quot;AS IS&quot; BASIS,&#xA;   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.&#xA;   See the License for the specific language governing permissions and&#xA;   limitations under the License." IncludeInNewFiles="True" /></Policies></Properties></MonoDevelop></ProjectExtensions>
+
 </Project>
